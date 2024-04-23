@@ -18,11 +18,16 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.host.url>http://172.31.36.13:9000/</sonar.host.url>
+		<sonar.login>squ_4ddacc4dae41be3c0e93aac2f57ba5929a288210</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://15.206.205.237:8081/yaswanth/repository/Javastandalone/</url>
+	    </repository>
 
 	<dependencies>
 
@@ -49,6 +54,9 @@
 		<system>GitHub</system>
 		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application/issues</url>
 	</issueManagement>
+
+	
+	    
 
 	
 	<build>
